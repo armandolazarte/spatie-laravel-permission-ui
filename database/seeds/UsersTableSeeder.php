@@ -17,7 +17,7 @@ class UsersTableSeeder extends Seeder
                 'name'              => 'Lazarte, Armando',
                 'email'             => 'armando@gmail.com',
                 'email_verified_at' => now(),
-                'password'          => 'geronimo',
+                'password'          => '123456',
                 'tipo'              => 'super-admin',
                 'remember_token'    => Str::random(10),
             ]
@@ -28,7 +28,7 @@ class UsersTableSeeder extends Seeder
                 'name'              => 'Usuario, Prueba',
                 'email'             => 'usuario@gmail.com',
                 'email_verified_at' => now(),
-                'password'          => 'geronimo',
+                'password'          => '123456',
                 'remember_token'    => Str::random(10),
             ]
         );
